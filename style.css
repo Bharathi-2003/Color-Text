@@ -1,0 +1,46 @@
+html{
+	background-color:white;
+}
+
+h3{
+	text-shadow: 0 0 3px #ff0000;
+}
+.value{
+	color:#808080
+}
+.rgb{
+	font-size:32px;
+	color:rgb(0, 255, 0);
+}
+.center{
+	text-align:center;
+}
+.last{
+	border:1px;
+	padding:20px 30px;
+	color:white;
+	background-color:gray;
+	text-align-last:center;
+}
+.rtl{
+	font-size: x-large;
+	color: darkorange;
+	direction: rtl;
+}
+.dec-line{
+	text-decoration-line: underline;
+}
+.dec-color{
+	text-decoration-line: overline;
+	text-decoration-color: red;
+}
+
+.dec-style{
+	text-decoration-line: underline;
+  text-decoration-style: double;}
+  .dec-thick{
+	text-decoration-line: underline;
+  text-decoration-color: red;
+  text-decoration-style: double;
+  text-decoration-thickness: 2px;
+}
