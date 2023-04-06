@@ -1,54 +1,88 @@
 html{
-	background-color:white;
-	font-family: 'Rajdhani', sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+	width:70%;
+	height:100%;
+	background-color:#66503c48;
+font-family: 'Rajdhani', sans-serif;
 }
-div{
-border-block-end-color: #0000ff;
-}
-h3{
+
+
+h3{border: 2px solid black;
+	border-radius: 5px;
 	font-size:40px;
 	text-align:center;
-	font-weight:bold;
+	font-weight:bold;}
+
+div#color{
+	font-size:20px ;
+	font-weight: 700;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 20px;
+	background-color: rgba(181, 224, 224, 0.63);
+	border-style: dashed;
 }
 .value{
 	font-size:32px;
-	color:#808080
-}
+	color:#3d3c3c}
+
 .rgb{
 	font-size:32px;
-	color:rgb(0, 255, 0);
+	color:rgba(65, 65, 243, 0.815);
 }
 .rgba{
 	font-size:32px;
-	color:rgba(180,18,255,1);
+	color:rgb(191, 86, 243);
 }
 .hsl{
 	font-size:32px;
-	color:hsl(120 70% 50%);
+	color:hsl(120, 95%, 17%);
+}
+#align{
+	font-size: large;
+	font-weight: 700;
+	padding: 20px 20px;
+	background-color: rgba(28, 70, 70, 0.63);
+	border: 2px solid #000000;
+
 }
 .center{
 	font-size: x-large;
 	text-align:center;
 }
 .last{
-	font-size: small;
+	font-size: 20px;
 	padding:20px 30px;
-	color:white;
+	color:rgb(243, 241, 127);
 	background-color:#cb7070;
-	text-align-last:center;
+	
+	text-align-last:justify;
 }
 .rtl{
 	font-size: x-large;
-	color: darkorange;
-	direction: rtl;
+	color: rgb(46, 3, 82);
+	direction:rtl;
+	unicode-bidi: bidi-override;
 }
 .ltr{
 	font-size: x-large;
-	color: darkorange;
+	color: rgb(136, 13, 50);
 	direction: ltr;
+}
+#deco{
+	padding: 20px 20px;
+	border:3px solid #000000;
+	border-style: double;
+	background-color:tan;
+	font-size: 30px;
+	font-weight:900;
+	color: hsl(138, 93%, 11%);
 }
 .dec-line{
 	text-decoration-line: underline;
+	text-decoration-style: wavy;  
+	text-decoration-color: red;
 }
 .dec-color{
 	text-decoration-line: overline;
@@ -56,11 +90,81 @@ h3{
 }
 
 .dec-style{
-	text-decoration-line: underline;
+	text-decoration-color: red;
+	text-decoration-line:line-through;
   text-decoration-style: double;}
   .dec-thick{
-	text-decoration-line: underline;
-  text-decoration-color: red;
-  text-decoration-style: double;
-  text-decoration-thickness: 2px;
+	text-decoration: underline dotted red 5px;
+  }
+div#transform{
+	font-size:20px ;
+	font-weight: 900;
+	background-color: silver;
+	padding: 20px;
+	border: 5px solid royalblue;
+	border-radius: 3px;
+
+}
+.trans{
+	color: rgb(46, 3, 82);
+	text-transform: uppercase;
+}
+.trans-1{
+	color: mediumvioletred;
+	text-transform: lowercase;
+}
+.trans-2{
+	color: saddlebrown;
+	text-transform: capitalize;
+}
+#shadow{
+	font-size:20px ;
+	font-weight: 900;
+	background-color: rgb(243, 245, 157);
+	padding: 20px;
+	border: 5px solid rgb(13, 31, 83);
+	border-radius: 3px;
+
+}
+.p-1{
+	text-shadow: 2px 2px;
+}
+.p-2{
+	text-shadow: 2px 3px green;
+}
+.p-3{
+	color: #fff;
+	text-shadow: 2px 4px 5px  rgb(255, 0, 212);
+}
+.p-4{
+	text-shadow:  0 3px #FF0000, 0 0 5px #0000FF;
+}
+#spacing{
+	font-size:20px ;
+	font-weight: 900;
+	background-color: rgb(162, 246, 252);
+	padding: 20px;
+	border: 5px solid rgb(65, 6, 47);
+	border-radius: 3px;
+
+}
+.indent{
+	text-indent:50px;
+	color: deeppink;
+}
+.letter{
+	color: maroon;
+	letter-spacing:3px;
+}
+.word{
+	color: midnightblue;
+	word-spacing:3px ;
+}
+.height{
+	color: rgb(9, 44, 9);
+	line-height:40px ;
+}
+.white{
+	color: rgb(12, 61, 61);
+	white-space:break-spaces
 }
