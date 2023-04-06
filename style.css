@@ -1,31 +1,51 @@
 html{
 	background-color:white;
+	font-family: 'Rajdhani', sans-serif;
 }
-
+div{
+border-block-end-color: #0000ff;
+}
 h3{
-	text-shadow: 0 0 3px #ff0000;
+	font-size:40px;
+	text-align:center;
+	font-weight:bold;
 }
 .value{
+	font-size:32px;
 	color:#808080
 }
 .rgb{
 	font-size:32px;
 	color:rgb(0, 255, 0);
 }
+.rgba{
+	font-size:32px;
+	color:rgba(180,18,255,1);
+}
+.hsl{
+	font-size:32px;
+	color:hsl(120 70% 50%);
+}
 .center{
+	font-size: x-large;
 	text-align:center;
 }
 .last{
-	border:1px;
+	font-size: small;
 	padding:20px 30px;
 	color:white;
-	background-color:gray;
+	background-color:#cb7070;
 	text-align-last:center;
 }
 .rtl{
 	font-size: x-large;
 	color: darkorange;
 	direction: rtl;
+}
+.ltr{
+	font-size: x-large;
+	color: darkorange;
+	direction: ltr;
 }
 .dec-line{
 	text-decoration-line: underline;
